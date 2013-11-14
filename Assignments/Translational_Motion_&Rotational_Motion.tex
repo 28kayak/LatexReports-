@@ -2,8 +2,8 @@
 \setlength\parindent{0pt}
 %Packages
 \usepackage[total={7in,10in},top=0.25in,left=0.75in,includehead]{geometry}
-% \usepackage{fancyhdr}
-% \pagestyle{fancy}
+\usepackage{color}
+%\pagestyle{fancy}
 %\usepackage{fancybox}
 \usepackage{graphicx}
 \usepackage{calc}
@@ -26,6 +26,7 @@
     Mass & m & $ I = mr^2 $\\\hline
     Force & $\vec{F} = m\vec{a}$ & $\vec{\tau} = I\vec{\omega}$ \\\hline
     Work & $ W = \int_{x_1}^{x_2} \vec{F}\cdot d\vec{x}$ & $ W =\int_{\theta_1}^{\theta_2} \vec{\tau} \cdot d\vec{\theta}$\\\hline
+    Kinetic Energy & $K_x = \frac{1}{2}mv^2 $ & $K_{\theta} = \frac{1}{2}I\omega^2 $\\\hline
     Momenta & $\vec{P} = m\vec{v} $ & $\vec{L} = I\vec{\omega} $\\\hline
     Impulse & $\vec{J} = \int_{t_1}^{t_2} \vec{F}dt $ & $ \vec{J_\theta} = \int_{t_1}^{t_2} \vec{\tau}dt$ \\\hline
     Net Impulse & $\vec{J_{net}} = \Delta \vec{P}$& $\vec{J_{\theta}} = \Delta \vec{L}$\\\hline
@@ -34,7 +35,28 @@
 \end{table}
 
 \begin{flushleft}
-{\large\bf Definitions} 
+\textcolor{cyan}{\large\bf Definitions} 
+\end{flushleft}
+\begin{flushleft}
+
+\underline{\large\it Line of Action}\\ 
+\ \ \ \ \ the line along which the force vector lies.
+
+\underline{\large\it Moment of Arm or Leverage}\\
+\ \ \ \ \ Distance from the pivot potions to the line of action.
+
+
+\underline{{\large\it Torque} \tiny$\leftarrow$  this guy actually causes "rotation"}\\
+\ \ \ \ \ Vector of Torque:\\
+\ \ \ \ \ \ \ \ \ \ \ $\vec{\tau} = \vec{r}\times\vec{F}$\\
+\ \ \ \ \ Magnitude of Torque: 
+\begin{eqnarray}
+\ \ \ \ \  \tau &=& Fl \nonumber \\
+&=& rF\sin(\phi) \nonumber \\
+&=& F_{tan}r \nonumber \\
+\end{eqnarray} 
+
+
 \end{flushleft}
 
 
